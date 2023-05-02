@@ -1,0 +1,141 @@
+body {
+    max-width: 1325px;
+    width: 100%;
+    margin: 0 auto;
+}
+  
+body {
+    justify-content: center;
+}
+#profile {
+    background-color: rgba(102, 102, 131, 0.199);
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 98%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1.8em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+h2 {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.35em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: -3%;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 525px;
+    width: 100%;
+    height: fit-content;
+}
+.proximity {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.visual-hierarchy {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.rule-of-thirds {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.proximity, .visual-hierarchy, .rule-of-thirds {
+    background-color: rgba(91, 91, 143, 0.199);
+    width: 97%;
+    border: 1.5px solid black;
+    width: 520px; 
+    height: fit-content;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 1.5%;
+    margin-bottom: 3%;
+}
+.dropbox-img, .apple-img, .adobe-img {
+    width: 98%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center center; 
+    border: 4px solid rgba(91, 91, 143, 0.199);
+    margin-bottom: -6%;
+}
+h3, h4, h5 {
+    background-color: rgb(95, 95, 182);
+    padding: 5%;
+    margin-top: -1%;
+    margin-bottom: -2%;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+#company {
+    background-color: rgba(91, 91, 143, 0.199);
+    padding: 5%;
+    margin-top: 1%;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+#hyperlink {
+    background-color: rgba(91, 91, 143, 0.199);
+    padding: 5%;
+    margin-top: -4%;
+    margin-bottom: -3%;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: rgb(34, 84, 190);
+    text-decoration: underline;
+}
+#description {
+    background-color: rgba(91, 91, 143, 0.199);
+    padding: 5%;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;  
+    text-align: justify;
+    margin-bottom: -1%;  
+}
+#footnote {
+    background-color: rgba(102, 102, 131, 0.199);
+    padding: 2%;
+    border-radius: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    max-width: 95%;
+    height: fit-content;
+}
+h6 {
+    margin-top: 2%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600; 
+    font-size: 1em;
+}
+h7 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: -1%;
+    font-family: 'Lato', sans-serif;
+    color: firebrick;
+    font-weight: 400; 
+}

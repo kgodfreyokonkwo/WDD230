@@ -1,0 +1,45 @@
+@media only screen and (min-width: 884px) {
+    h1 {
+        font-size: 5.5em;
+        font-weight: 600;
+    }
+    h2 {
+        font-size: 4em;
+        font-weight: 400;
+    }
+    .home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1320px;
+    }
+    .rule-of-thirds {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .proximity, .visual-hierarchy {
+        border: 2px solid black;
+        width: 425px; 
+    }
+    .rule-of-thirds {
+        border: 2px solid black;
+        width: 425px; 
+    }
+    h3, h4, h5 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    #company {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    #hyperlink {
+        font-weight: 400;
+    }
+    h6 {
+        font-weight: 700; 
+    }
+    h7 {
+        font-weight: 500; 
+    }
+
+}
