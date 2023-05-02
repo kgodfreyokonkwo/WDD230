@@ -3,7 +3,7 @@
         font-size: 5.5em;
         font-weight: 600;
     }
-    h2 {
+    #name {
         font-size: 4em;
         font-weight: 400;
     }
@@ -24,21 +24,21 @@
         border: 2px solid black;
         width: 425px; 
     }
-    h3, h4, h5 {
+    h2, h3, h4 {
         font-size: 1.5em;
         font-weight: 600;
     }
-    #company {
+    #company-1, #company-2, #company-3 {
         font-size: 1.5em;
         font-weight: 400;
     }
-    #hyperlink {
+    #hyperlink-1, #hyperlink-2, #hyperlink-3 {
         font-weight: 400;
     }
-    h6 {
+    h5 {
         font-weight: 700; 
     }
-    h7 {
+    h6 {
         font-weight: 500; 
     }
 

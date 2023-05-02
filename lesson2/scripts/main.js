@@ -1,9 +1,9 @@
 const year = new Date().getFullYear();
-const copySymbol = document.querySelector("#footnote h6");
+const copySymbol = document.querySelector("#footnote h5");
 copySymbol.innerHTML = copySymbol.innerHTML.replace("©", `&copy; ${year}`);
 
 // select the <h4> element in the footer where we want to display the last modified date and time
-const lastUpdated = document.querySelector('footer h7');
+const lastUpdated = document.querySelector('footer h6');
 
 // get the last modified date and time of the HTML file
 const lastModified = new Date(document.lastModified);

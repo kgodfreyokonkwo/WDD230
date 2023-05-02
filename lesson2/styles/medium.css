@@ -3,7 +3,7 @@
         font-size: 3.6em;
         font-weight: 500;
     }
-    h2 {
+    #name {
         font-size: 2.7em;
         font-weight: 300;
     }
@@ -30,11 +30,11 @@
         width: 880px; 
         margin-bottom: auto;
     }
-    h3, h4, h5 {
+    h2, h3, h4 {
         font-size: 1.5em;
         font-weight: 500;
     }
-    #company {
+    #company-1, #company-2, #company-3 {
         font-size: 1.5em;
         font-weight: 400;
     }
