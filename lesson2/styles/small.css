@@ -53,9 +53,9 @@ h1 {
 }
 .proximity, .visual-hierarchy, .rule-of-thirds {
     background-color: rgba(91, 91, 143, 0.199);
-    width: 97%;
+    width: 80%;
     border: 1.5px solid black;
-    width: 520px; 
+    width: 400px; 
     height: fit-content;
     display: flex; 
     justify-content: center; 
