@@ -1,6 +1,6 @@
 @media only screen and (min-width: 520px) {
     h1 {
-        font-size: 3.6em;
+        font-size: 3em;
         font-weight: 500;
     }
     #name {
@@ -12,6 +12,10 @@
         grid-template-columns: 1fr 1fr;
         max-width: 880px;
     }
+    .proximity {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
     .visual-hierarchy {
         grid-column: 2/3;
         grid-row: 1/2;
@@ -22,13 +26,15 @@
     }
     .proximity, .visual-hierarchy {
         border: 2px solid black;
-        width: 425px; 
-        margin-bottom: auto;
+        max-width: 425px; 
+        width: 90%; 
+        margin: 3%;
     }
     .rule-of-thirds {
         border: 1.5px solid black;
-        width: 880px; 
-        margin-bottom: auto;
+        max-width: 880px; 
+        width: 95%; 
+        margin: 2%
     }
     h2, h3, h4 {
         font-size: 1.5em;
