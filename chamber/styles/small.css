@@ -1,0 +1,253 @@
+#content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+header {
+    max-width: 1300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border: 1px solid black;
+}
+#socials {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    padding-right: 3px;
+    margin-top: 20px;
+    width: 96%;
+}
+#logo-position {
+    grid-column: 1/2;
+
+}
+.social {
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#connect {
+    display: none;
+}
+
+#navigator {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: flex;
+    width: 100%;
+}
+#current-date {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 100%;
+    background-color: #26303a;
+}
+.current-date {
+    text-align: center;
+    font-size: 1em;
+    font-family: Lato;
+    background-color: #26303a;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+}
+.logo {
+    width: 150px;
+    height: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 5px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 1300px;
+    height: 600px;
+    margin:2%;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border: 2px solid #ff3131;
+    width: 100%;
+    height: 100%;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 2px solid #ff3131;
+    margin-top: -30%;
+    margin-left: -80%;
+    margin-right: 80%;
+    width: 100%;
+    height: 100%;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 1300px; 
+}
+#motive, #partners, #podcasts, #blog {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-bottom: 10px;
+    border: 2px solid #ff3131;
+}
+#motive {
+    grid-column: 1;
+    grid-row: 1/2;
+}
+#partners {
+    grid-column: 1;
+    grid-row: 2/3;
+}
+#podcasts {
+    grid-column: 1;
+    grid-row: 3/4;
+}
+#blog {
+    grid-column: 1;
+    grid-row: 4/5;
+}
+#footnote {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 1300px;
+    width: 98%;
+    padding: 1%;
+    background-color: #a7ab18;
+}
+#logo_link {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 50%;
+    padding: 1%;
+    display: flex;
+}
+.logo {
+    display: block;
+    flex: 1 1 100%;
+}
+#address {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    font-family: "Roboto";
+    font-weight: 200;
+    padding: 1%;
+    color: black;
+    font-size: .7em;
+}
+#contact {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+    font-family: "Raleway";
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-size: .7em;
+}
+#base-footer {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    width: 99%;
+    background-color: #26303a;
+}
+
+h5 {
+    margin-top: 2%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: 'Raleway', 'Roboto';
+    font-weight: 600; 
+    font-size: 1em;
+    color: white;
+}
+h6 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: -1%;
+    font-family: 'Raleway', 'Roboto';
+    color: white;
+    font-weight: 400; 
+}
+hr {
+    border-width: 2px;
+}
+h2 {
+    font-family: "Roboto";
+    font-size: 1em;
+}
+nav {
+    background-color: #ff8d8d;;
+    margin-top: 10px;
+    padding: 0;
+    flex: 1 1 100%;
+}
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #26303a;
+}
+nav ul {
+    display: none;
+    margin: 0;
+    justify-content: flex-end;
+    padding: 5%;
+    list-style-type: none;
+}
+nav ul li {
+    flex: 1 1 100%;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    border: 1px solid #26303a;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 800;
+    font-family: Montserrat;
+    flex: 1 1 100%;
+}
+nav ul li.active a {
+    background-color: #a7ab18;
+    color: white;
+}
+nav ul li a:hover {
+    background-color:  #FF0000;
+    color: white;
+}
+
+nav ul.open {
+    display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}

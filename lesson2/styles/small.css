@@ -15,6 +15,7 @@ body {
     height: fit-content;
     margin: auto;
     text-align: center;
+    border: 2px solid blue;
 }
 h1 {
     grid-column: 1;
@@ -66,6 +67,7 @@ h1 {
     padding: 4%;
     border: 2px solid blue;
     border-radius: 20px;
+    overflow: hidden;
     margin: 0;
   }
 .dropbox-img, .apple-img, .adobe-img {
@@ -93,12 +95,13 @@ h2, h3, a {
 #footnote {
     background-color: rgba(102, 102, 131, 0.199);
     padding: 2%;
-    border-radius: 2%;
+    border-radius: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1%;
     max-width: 94%;
     height: fit-content;
+    border: 2px solid blue;
 }
 h5 {
     margin-top: 2%;
