@@ -68,6 +68,15 @@
         padding-top: 5%;
         background-color: white;
     }
+    #footnote {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 1300px;
+        width: 98%;
+        padding: 1%;
+        background-color: #a7ab18;
+    }
     .logo {
         width: 200px;
         height: 150px;
@@ -85,5 +94,40 @@
         font-family: Lato;
         background-color: white;
         color: black;
+    }
+    #logo_link {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 50%;
+        padding: 1%;
+        display: flex;
+    }
+    .logo {
+        display: block;
+        flex: 1 1 100%;
+    }
+    #address {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 100%;
+        font-family: "Roboto";
+        font-weight: 200;
+        padding: 1%;
+        color: black;
+        font-size: 1.3em;
+    }
+    #contact {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        width: 100%;
+        font-family: "Raleway";
+        padding: 1%;
+        color: black;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+    #base-footer {
+        grid-column: 1/4;
+        grid-row: 2/3;
     }
 }

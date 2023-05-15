@@ -130,43 +130,47 @@ header {
     background-color: #a7ab18;
 }
 #logo_link {
-    grid-column: 1/2;
+    grid-column: 1/4;
     grid-row: 1/2;
-    max-width: 50%;
+    max-width: 100%;
     padding: 1%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo {
-    display: block;
-    flex: 1 1 100%;
+    width: 200px;
+    height: 150px;
+    margin-left: 5px;
 }
 #address {
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-column: 1/4;
+    grid-row: 2/3;
     width: 100%;
     font-family: "Roboto";
     font-weight: 200;
     padding: 1%;
     color: black;
-    font-size: .7em;
+    font-size: 1.2em;
+    text-align: center;
 }
 #contact {
-    grid-column: 3/4;
-    grid-row: 1/2;
+    grid-column: 1/4;
+    grid-row: 3/4;
     width: 100%;
     font-family: "Raleway";
     padding: 1%;
     color: black;
     text-decoration: none;
-    font-size: .7em;
+    font-size: 1.2em;
+    text-align: center;
 }
 #base-footer {
     grid-column: 1/4;
-    grid-row: 2/3;
+    grid-row: 4/5;
     width: 99%;
     background-color: #26303a;
 }
-
 h5 {
     margin-top: 2%;
     grid-column: 1/3;
