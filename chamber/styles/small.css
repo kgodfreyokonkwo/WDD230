@@ -36,7 +36,6 @@ header {
 #connect {
     display: none;
 }
-
 #navigator {
     grid-column: 1/3;
     grid-row: 3/4;
@@ -66,6 +65,14 @@ header {
     grid-row: 1/2;
     margin-left: 5px;
 }
+#banner {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat";
+  }
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,6 +137,45 @@ hr {
     text-decoration: none;
     color: white;
 }
+#weather-box {
+    width: 98%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    margin-top: 80px;
+}
+#weather {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-right: 20px;
+    background-color: #a7ab18;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    border-radius: 10px;
+}
+#weather-img {
+    width: 50px;
+    height: 50px;
+}
+#weather-header {
+    font-family: "Roboto";
+    font-size: 2em;
+}
+#weather-result1 {
+    font-family: "Montserrat";
+    font-size: 1.5em;
+}
+#weather-result2 {
+    font-family: "Montserrat";
+    font-size: 1em;
+}
 .home-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -139,7 +185,7 @@ hr {
 #motive, #partners, #podcasts, #blog {
     width: 100%;
     height: 300px;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 #motive {
     grid-column: 1;
@@ -186,6 +232,18 @@ hr {
     grid-column: 1;
     grid-row: 2/3;
 }
+#we-partner {
+    text-align: center;
+    font-family: "Roboto";
+    background-color: #26303a;
+    color: white;
+    text-decoration: double;
+    padding: 6px;
+}
+.direction {
+    font-size: 1em;
+    color: white;
+}
 #podcasts {
     grid-column: 1;
     grid-row: 3/4;
@@ -204,8 +262,8 @@ hr {
     right: 0;
     padding: 3%;
     color: white;
-    font-family: "Roboto";
-    font-size: 2em;
+    font-family: "Montserrat";
+    font-size: 1.6em;
 }
 #blog {
     grid-column: 1;
@@ -406,7 +464,7 @@ nav ul.open {
     border: 1px solid #000000;
 }
 .slider img:last-child {
-    margin-right: 0; /* Remove the right margin from the last image to avoid extra spacing */
+    margin-right: 0;
 }
 .prev-button,
 .next-button {
@@ -414,23 +472,12 @@ nav ul.open {
     top: 50%;
     transform: translateY(-50%);
     padding: 10px;
-}
-  
+} 
 .prev-button {
     left: 10px;
     height: 80px;
-}
-  
+} 
 .next-button {
     right: 10px;
     height: 80px;
-}
-
-#we-partner {
-    text-align: center;
-    font-family: "Roboto";
-    background-color: #26303a;
-    color: white;
-    text-decoration: double;
-    padding: 6px;
 }

@@ -36,22 +36,15 @@ const X = document.getElementById('hamburgerBtn');
 
 X.onclick = toggleMenu;
 
-//To enable slide of partners logo
-
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
-const sliderWrapper = document.querySelector('.slider-wrapper');
-
-let translateValue = 0;
-const slideWidth = document.querySelector('.slider img').clientWidth;
-
-nextButton.addEventListener('click', () => {
-  translateValue -= slideWidth;
-  sliderWrapper.style.transform = `translateX(${translateValue}px)`;
-});
-
-prevButton.addEventListener('click', () => {
-  translateValue += slideWidth;
-  sliderWrapper.style.transform = `translateX(${translateValue}px)`;
-});
+window.addEventListener('DOMContentLoaded', function() {
+    var presentDate = new Date();
+    var dayOfWeek = presentDate.getDay(); // 0 (Sunday) to 6 (Saturday)
+  
+    if (dayOfWeek === 1 || dayOfWeek === 2) { // Monday (1) or Tuesday (2)
+      var banner = document.getElementById('banner');
+      banner.textContent = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+      banner.style.display = 'block';
+    }
+  });
+  
 
