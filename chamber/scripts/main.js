@@ -36,3 +36,22 @@ const X = document.getElementById('hamburgerBtn');
 
 X.onclick = toggleMenu;
 
+//To enable slide of partners logo
+
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
+const sliderWrapper = document.querySelector('.slider-wrapper');
+
+let translateValue = 0;
+const slideWidth = document.querySelector('.slider img').clientWidth;
+
+nextButton.addEventListener('click', () => {
+  translateValue -= slideWidth;
+  sliderWrapper.style.transform = `translateX(${translateValue}px)`;
+});
+
+prevButton.addEventListener('click', () => {
+  translateValue += slideWidth;
+  sliderWrapper.style.transform = `translateX(${translateValue}px)`;
+});
+
