@@ -68,11 +68,13 @@ header {
 #banner {
     display: none;
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-family: "Montserrat";
-  }
+    top: 0;
+    height: 60px;
+}
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,6 +82,7 @@ header {
     max-width: 1300px;
     height: 400px;
     margin:2%;
+    margin-bottom: 17%;
     position: relative;
 }
 #hero-box {
@@ -102,13 +105,17 @@ header {
     left: 0;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
+    font-size: 1.3em;
+    font-family: "Roboto";
 }
 #hero-msg {
+    Display: none;
     position: absolute;
-    bottom: -150px;
     left: 20px;
+    top: 35%;
     background-color: #ff3131;
-    width: 40%;
+    width: 50%;
+    height: 50%;
     padding: 3%;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -122,100 +129,60 @@ hr {
     border-top: 5px solid white;
     height: 0;
 }
-.email-icon {
-    font-size: 30px;
-  }
-#heroMessage {
-    font-family: "Roboto";
-    font-size: 1.3em;
-    color: black;
-    text-align: justify;
-}
-.sign {
-    font-family: "Roboto";
-    font-size: 1.5em;
-    text-decoration: none;
-    color: white;
-}
-#weather-box {
-    width: 98%;
-    height: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1;
-    margin-top: 80px;
-}
 #weather {
-    grid-column: 3/4;
-    grid-row: 1/2;
+    position: absolute;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    margin-right: 20px;
+    top: 500px;
+    height: 150px;
+    right: 2%;
     background-color: #a7ab18;
     padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 90px;
     border-radius: 10px;
+    padding-bottom: 10px;
 }
 #weather-img {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
 }
 #weather-header {
     font-family: "Roboto";
-    font-size: 2em;
+    font-size: 1em;
 }
 #weather-result1 {
     font-family: "Montserrat";
-    font-size: 1.5em;
+    font-size: 1em;
 }
 #weather-result2 {
     font-family: "Montserrat";
-    font-size: 1em;
+    font-size: .8em;
 }
 .home-grid {
-    display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: auto;
     max-width: 1300px; 
+    width: 100%;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #motive, #partners, #podcasts, #blog {
     width: 100%;
-    height: 300px;
-    margin-top: 15%;
-}
-#motive {
-    grid-column: 1;
-    grid-row: 1/2;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-}
-#we-can {
-    grid-column: 1/4;
-    grid-row: 1/2;
-    display: flex;
-    font-family: "Roboto";
-    font-size: 1.5em;
-}
-#innovation {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-#business {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-#investment {
-    grid-column: 3/4;
-    grid-row: 2/3;
+    height: auto;
+    margin-top: 5px;
 }
 .motive-img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+}
+#we-can {
+    font-family: "Roboto";
+    font-size: 1.2em;
+    text-align: center;
 }
 #we-can, #innovation, #business, #investment {
     display: flex;
@@ -248,7 +215,8 @@ hr {
     grid-column: 1;
     grid-row: 3/4;
     position: relative;
-    margin-top: 40px; 
+    margin-top: 40px;
+    width: 100%; 
 }
 #podcast-img {
     width: 98%;
@@ -263,39 +231,26 @@ hr {
     padding: 3%;
     color: white;
     font-family: "Montserrat";
-    font-size: 1.6em;
+    font-size: .7em;
 }
 #blog {
     grid-column: 1;
     grid-row: 4/5;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
     padding: 3%;
     width: 94%;
     margin-bottom: 50px;
 }
 #blog-intro {
-    grid-column: 1/4;
-    grid-row: 1/2;
-    width: 100%;
     text-align: left;
     font-family: "Roboto";
-    font-size: 2em;
+    font-size: 1.5em;
     word-spacing: 45px;
-}
-#blog-1 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-#blog-2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-#blog-3 {
-    grid-column: 3/4;
-    grid-row: 2/3;
+    color: #FF0000;
 }
 #blog-1, #blog-2, #blog-3 {
     text-align: center;
@@ -304,14 +259,13 @@ hr {
     align-items: center;
 }
 .blog-img {
-    width: 320px;
-    height: 200px;
+    width: 240px;
+    height: 150px;
     box-shadow: 2px 2px 4px #000000;
-    border-radius: 20px;
 }
 .blog-msg {
     font-family: "Montserrat";
-    font-size: .9em;
+    font-size: 1em;
 }
 #footnote {
     display: grid;
@@ -385,7 +339,7 @@ h6 {
 }
 
 nav {
-    background-color: #ff8d8d;;
+    background-color: #FF0000;
     margin-top: 10px;
     padding: 0;
     flex: 1 1 100%;
@@ -423,7 +377,7 @@ nav ul li.active a {
     color: white;
 }
 nav ul li a:hover {
-    background-color:  #FF0000;
+    background-color:  #ff8d8d;
     color: white;
 }
 
@@ -446,6 +400,7 @@ nav ul.open {
 .image-slider {
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
   
 .slider-wrapper {

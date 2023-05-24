@@ -36,7 +36,7 @@ const X = document.getElementById('hamburgerBtn');
 
 X.onclick = toggleMenu;
 
-window.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener('DOMContentLoaded', function() {
     var presentDate = new Date();
     var dayOfWeek = presentDate.getDay(); // 0 (Sunday) to 6 (Saturday)
   
