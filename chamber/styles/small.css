@@ -246,11 +246,16 @@ hr {
     margin-bottom: 50px;
 }
 #blog-intro {
-    text-align: left;
     font-family: "Roboto";
     font-size: 1.5em;
     word-spacing: 45px;
-    color: #FF0000;
+    color: white;
+    display: flex;
+    background-color: #26303a;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    width: 98%;
 }
 #blog-1, #blog-2, #blog-3 {
     text-align: center;
