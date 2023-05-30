@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;family=Montserrat&amp;family=Raleway&amp;family=Roboto&amp;display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="content">
@@ -22,21 +22,21 @@
             <div id="socials">
                 <h1 id="connect">Connect with us on twitter, facebook, instagram and Linked-in! &#9758;</h1>
                 <a href="https://facebook.com" target="_blank">
-                    <img class="social" src="images/facebook.png" alt="fb icon">
+                    <img class="social" src="images/facebook.webp" alt="fb icon">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img class="social" src="images/twitterPNG.png" alt="twitter icon">
+                    <img class="social" src="images/twitterPNG.webp" alt="twitter icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img class="social" src="images/instagramPNG.png" alt="instagram icon">
+                    <img class="social" src="images/instagramPNG.webp" alt="instagram icon">
                 </a>
                 <a href="https://linkedin.com" target="_blank">
-                    <img class="social" src="images/linkedinJPG.png" alt="linked-in icon">
+                    <img class="social" src="images/linkedinJPG.webp" alt="linked-in icon">
                 </a>
             </div>
             <div id="logo-position">
                 <a id="logo" href="index.html">
-                    <img class="logo" src="images/UICC_logo.JPG" alt="UICC logo">
+                    <img class="logo" src="images/UICC_logo.webp" alt="UICC logo">
                 </a>
             </div>
             <div id="navigator">
@@ -53,13 +53,20 @@
             <div id="current-date">
                 <h1 class="current-date">Today's date is Sunday 14th May 2023</h1>
             </div>
+            <section id="weather">
+                <h2 id="weather-header">Weather</h2>
+                <h3 id="weather-result1"><img id="weather-img" src="images/weather.png" alt="The weather logo">Partly Cloudy</h3>
+                <p id="weather-result2">Temperature: <span class="temperature">25°C</span><br>Wind Speed: <span class="speed">2.5km/hr</span><br>Wind Chill: <span class="chill">N/A</span></p>
+            </section>
         </header>
         <hr class="hr1">
     <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/hero_img1.jpg" alt="Image showing collaboaration">
-            <h2 id="h2-hero">When we work together, we achieve the most!</h2>
-        </div>
+        <picture id="hero-box">
+            <source media="(max-width: 599px)" srcset="images/wdd230-org600.png">
+            <source media="(max-width: 899px) and (min-width: 600px)" srcset="images/wdd230-org900.png">
+            <img id="hero-img" src="images/wdd230-org1200.png" alt="Image showing collaboaration">
+        </picture>
+        <span id="h2-hero">When we work together, we achieve the most!</span>
         <section id="hero-msg">
                 <hr class="hr2">
                 <h2 id="heroMessage">We create a dynamic and supportive business community that fosters innovation 
@@ -68,11 +75,6 @@
                 <a class="sign" href="emailsignup.html"><span class="email-icon">&#x1F4E7;</span>Sign up for email updates!</a>
         </section>
     </div>
-    <section id="weather">
-        <h2 id="weather-header">Weather</h2>
-        <h3 id="weather-result1"><img id="weather-img" src="images/weather.png" alt="The weather logo">Partly Cloudy</h3>
-        <p id="weather-result2">Wind Speed:  <strong>2.5km/hr</strong><br>Wind Chill: <strong>N/A</strong></p>
-    </section>
     <main class="home-grid">
         <div id="motive">
             <h2 id="we-can">We believe that if we work together, consolidate on our strength, we can create wealth in these 3 key areas</h2>
@@ -93,20 +95,20 @@
             <h2 id="we-partner"><span class="direction">&#10229;</span> Our Partners and Collaborators<span class="direction">&#10230;</span></h2>
                 <div class="slider-wrapper">
                     <div class="slider">
-                    <img src="images/1qualtrics.JPG" alt="Qualtric">
-                    <img src="images/2vivint.JPG" alt="Vivint international">
-                    <img src="images/3overstock.JPG" alt="Overstock">
-                    <img src="images/4utahtechcouncil.JPG" alt="Utah Technology Council">
-                    <img src="images/5utahResturantAss.JPG" alt="Utah Restuarant Association">
-                    <img src="images/6UniUtah.JPG" alt="University of Utah">
-                    <img src="images/7BYU.JPG" alt="BYU">
-                    <img src="images/8utahStateUni.JPG" alt="Utah State University">
-                    <img src="images/9GovOffOfEcoOpportunity.JPG" alt="Governemnt Office of Economic Opportunity">
-                    <img src="images/10DivOfTechServices.JPG" alt="Division of Technical Services">
-                    <img src="images/11UtahNonProfitAssociation.JPG" alt="utah Non-profit Association">
-                    <img src="images/12UtahValleyChamCommerce.JPG" alt="Utah Valley Chamber of Commerce">
-                    <img src="images/13UtahCulturalAlliance.JPG" alt="Utah Cultural Alliance">
-                    <img src="images/14UtahManAss.JPG" alt="Utah Manurfacturers Association">
+                    <img src="images/1qualtrics.webp" alt="Qualtric">
+                    <img src="images/2vivint.webp" alt="Vivint international">
+                    <img src="images/3overstock.webp" alt="Overstock">
+                    <img src="images/4utahtechcouncil.webp" alt="Utah Technology Council">
+                    <img src="images/5utahResturantAss.webp" alt="Utah Restuarant Association">
+                    <img src="images/6UniUtah.webp" alt="University of Utah">
+                    <img src="images/7BYU.webp" alt="BYU">
+                    <img src="images/8utahStateUni.webp" alt="Utah State University">
+                    <img src="images/9GovOffOfEcoOpportunity.webp" alt="Governemnt Office of Economic Opportunity">
+                    <img src="images/10DivOfTechServices.webp" alt="Division of Technical Services">
+                    <img src="images/11UtahNonProfitAssociation.webp" alt="utah Non-profit Association">
+                    <img src="images/12UtahValleyChamCommerce.webp" alt="Utah Valley Chamber of Commerce">
+                    <img src="images/13UtahCulturalAlliance.webp" alt="Utah Cultural Alliance">
+                    <img src="images/14UtahManAss.webp" alt="Utah Manurfacturers Association">
                     </div>
                 </div>
             <button class="prev-button">&#10094; </button>
@@ -138,7 +140,7 @@
     <footer>
         <div id="footnote">
             <div id="logo_link">
-                <img class="logo" src="images/UICC_logo2.JPG" alt="UICC logo">
+                <img class="logo" src="images/UICC_logo2.webp" alt="UICC logo">
             </div>
             <h3 id="address"><strong>UI Chamber of Commerce</strong><br> Block 3, South 2nd Street<br> East Rexburg, ID, USA</h3>
             <section id="contact">
@@ -155,6 +157,7 @@
     </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/wind.js"></script>
     </div>
 </body>
 </html>

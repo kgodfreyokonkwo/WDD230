@@ -1,4 +1,4 @@
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 600px) {
     #footnote {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -15,15 +15,8 @@
         padding: 20px;
         font-size: 18px;
     }
-    #hero {
-        margin:2%;
-        margin-bottom: 50px;
-        position: relative;
-    }
     #hero-msg {
         display: block;
-        bottom: -10px;
-        height: 30%;
     }
     .email-icon {
         font-size: 20px;
@@ -41,7 +34,7 @@
         color: white;
     }
     .home-grid {
-        margin-top: -150px;
+        margin: 2% 2%;
     }
     #blog {
         grid-column: 1;
@@ -49,10 +42,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
-        margin-top: 20px;
         padding: 2%;
         width: 94%;
-        margin-bottom: 20px;
         height: auto;
     }
     #blog-intro {
@@ -115,27 +106,12 @@
         flex: 1 1 100%;
     }
     #weather {
-        top: 350px;
-        right: 2%;
-        background-color: #a7ab18;
-        padding: 10px;
-        border-radius: 10px;
-        height: 150px;
+        top: 310px;
     }
-    #weather-img {
-        width: 20px;
-        height: 20px;
+    #hamburgerBtn span:nth-child(1) {
+        display: none;
     }
-    #weather-header {
-        font-family: "Roboto";
-        font-size: 1em;
-    }
-    #weather-result1 {
-        font-family: "Montserrat";
-        font-size: 1em;
-    }
-    #weather-result2 {
-        font-family: "Montserrat";
-        font-size: .8em;
+    #hamburgerBtn span:nth-child(2) {
+        display: none;
     }
 }
