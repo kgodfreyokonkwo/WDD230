@@ -34,7 +34,7 @@
         color: white;
     }
     .home-grid {
-        margin: 2% 2%;
+        margin: 4% 2%;
     }
     #blog {
         grid-column: 1;
@@ -42,18 +42,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
-        padding: 2%;
-        width: 94%;
+        width: 100%;
         height: auto;
     }
-    #blog-intro {
+    .intro {
         grid-column: 1/4;
         grid-row: 1/2;
         width: 100%;
         text-align: center;
         font-family: "Roboto";
-        font-size: 1.5em;
-        word-spacing: 45px;
+        font-size: 1.2em;
+        word-spacing: 35px;
     }
     #blog-1 {
         grid-column: 1/2;
@@ -80,6 +79,10 @@
     }
     #podcast-msg {
         font-size: 1em;
+    }
+    .welcome {
+        font-size: 1.1em;
+        text-align: left;
     }
     #contact {
         grid-column: 1/3;

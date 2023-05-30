@@ -115,14 +115,27 @@
             <button class="next-button">&#10095; </button>
         </div>
         <div id="podcasts">
-            <hr id="pre-podcast">
-            <h2 id="podcast-msg">Join us from anywere, on our weekly podcast 
-                <br>Come and be inspired by what we do <br> Meet our talents and Investors <br><br>Every Wednesdays by 15:00 MST</h2>
-            <img id="podcast-img" src="images/podcast.jpg" alt="podcast images">
+            <h2 class="intro">Podcast</h2>
+            <picture id="pre-podcast">
+                <source media="(max-width: 599px)" srcset="images/podcast300.png">
+                <source media="(max-width: 599px)" srcset="images/podcast450.png">
+                <source media="(max-width: 599px)" srcset="images/podcast600.png">
+                <img id="podcast-img" src="images/podcast900.png" alt="podcast images">
+            </picture>
+            <h2 id="podcast-msg"><span class="welcome">Welcome to our weekly podcast!</span> 
+                <br>Join us as we explore the world of innovation, business growth, and prosperity in Utah. 
+                Our episodes feature interviews with industry leaders, discussions on key topics, and 
+                inspiring stories of local businesses and startups. 
+                <br>Tune in every Wednesday at 15:00 MST to stay updated with the latest trends and gain 
+                valuable insights. Subscribe to our podcast and be part of our community of innovators. 
+                Together, let's create a thriving business ecosystem in Utah. Join us on our podcast 
+                and be inspired by what we do! 
+                <br>Come and be inspired by what we do and Meet our talents and Investors
+            </h2>
         </div>
         <div id="blog">
             <hr id="pre-blog">
-            <h2 id="blog-intro">blogs</h2>
+            <h2 class="intro">blogs</h2>
             <div id="blog-1">
                 <img class="blog-img" src="images/blog1.JPG" alt="blog 1">
                 <p class="blog-msg"><strong>The Power of Networking</strong><br>2 May 2023</p>
@@ -157,7 +170,7 @@
     </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/main.js"></script>
-    <script src="scripts/wind.js"></script>
+    <script src="scripts/windchill.js"></script>
     </div>
 </body>
 </html>

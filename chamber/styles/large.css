@@ -127,15 +127,11 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-    #motive, #partners, #podcasts {
+    #motive, #partners {
         width: 100%;
         height: 300px;
         margin-top: 3%;
         margin-bottom: 2%;
-    }
-    
-    #pre-podcast {
-        margin-bottom: 30px;
     }
     #motive {
         grid-column: 1;
@@ -180,9 +176,18 @@
     #podcast-msg {
         font-size: 1.5em;
     }
-
+    #podcast-msg {
+        text-align: justify;
+        margin: 4% 0 4% 2%;
+        font-family: "Montserrat";
+        font-size: 1.2em;
+    }
+    .welcome {
+        font-size: 1.4em;
+        text-align: left;
+    }
     #blog {
-        margin-top: 150px;
+        margin-top: 0;
     }
     .logo {
         display: block;

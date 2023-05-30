@@ -81,9 +81,10 @@ header {
     grid-template-rows: auto;
     max-width: 1300px;
     max-height: 400px;
+    height: 90%;
     width: 96%;
     height: 96%;
-    margin: 2% 2%;
+    margin: 2% 2% 10% 2%;
     position: relative;
 }
 #hero-box {
@@ -92,7 +93,6 @@ header {
     grid-row: 1/2;
     border: none;
     width: 100%;
-    margin: 0;
     height: auto;
 }
 #hero-img {
@@ -178,7 +178,7 @@ hr {
     align-items: center;
     justify-content: center;
 }
-#motive, #partners, #podcasts, #blog {
+#motive, #partners, #blog {
     width: 100%;
     height: auto;
     margin-top: 5px;
@@ -208,39 +208,45 @@ hr {
     grid-column: 1;
     grid-row: 2/3;
 }
-#we-partner {
+#we-partner, .intro {
     text-align: center;
     font-family: "Roboto";
-    background-color: #26303a;
+    background-color: #667885;
     color: white;
-    text-decoration: double;
-    padding: 6px;
+    padding: 2px;
+    width: 100%;
+    font-size: 1em;
 }
 .direction {
     font-size: 1em;
     color: white;
 }
 #podcasts {
-    grid-column: 1;
-    grid-row: 3/4;
-    position: relative;
-    margin-top: 4%;
+    margin-top: 2%;
     width: 100%; 
 }
+#pre-podcast {
+    width: 46%;
+    height: 42%;
+    float: left;
+    margin: 2% 2% 2% 0;
+    padding: 2% 2% 2% 0;
+}
 #podcast-img {
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
+    width: 100%;
     height: auto;
 }
 #podcast-msg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 3%;
-    color: white;
+    text-align: justify;
+    margin: 4% 0 4% 2%;
     font-family: "Montserrat";
-    font-size: .7em;
+    font-size: .8em;
+}
+.welcome {
+    text-decoration: double;
+    color:#FF0000;
+    font-size: 1em;
+    text-align: left;
 }
 #blog {
     grid-column: 1;
@@ -250,21 +256,8 @@ hr {
     align-items: center;
     justify-content: center;
     margin-top: 2%;
-    padding: 3%;
-    width: 94%;
+    width: 100%;
     margin-bottom: 2%;
-}
-#blog-intro {
-    font-family: "Roboto";
-    font-size: 1.5em;
-    word-spacing: 45px;
-    color: white;
-    display: flex;
-    background-color: #26303a;
-    padding: 1%;
-    text-align: center;
-    justify-content: center;
-    width: 98%;
 }
 #blog-1, #blog-2, #blog-3 {
     text-align: center;
@@ -418,6 +411,7 @@ nav ul.open {
     position: relative;
     overflow: hidden;
     width: 100%;
+    margin-bottom: 3%;
 }
   
 .slider-wrapper {
@@ -426,6 +420,7 @@ nav ul.open {
 }
   
 .slider {
+    margin: 2% 0 0 0;
     display: flex;
 }
   
