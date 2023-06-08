@@ -9,7 +9,8 @@
         grid-row: 1/2;
         width: 50%;
         padding: 1%;
-        padding-left: 60%;
+        padding-left: 10%;
+        
     }
     #banner {
         padding: 20px;
@@ -75,7 +76,9 @@
         grid-column: 2/3;
         grid-row: 1/2;
         font-size: 1.2em;
-        text-align:left;
+        text-align: center;
+        margin-right: 4%;
+        padding: 2%;
     }
     #podcast-msg {
         font-size: 1em;
@@ -116,5 +119,21 @@
     }
     #hamburgerBtn span:nth-child(2) {
         display: none;
+    }
+
+    /* Page 2, discover page*/
+
+    #demo-know {
+        font-family: "Raleway";
+        font-size: 1.3em;
+    }
+    .pict-msg {
+        padding: 2%;
+        font-family: "Roboto";
+        font-size: 1.3em;
+    }
+    #population, #age, #income, #poverty {
+        font-family: "Montserrat";
+        font-size: 1.3em;
     }
 }

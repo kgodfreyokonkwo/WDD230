@@ -1,3 +1,5 @@
+//For page 1 image slider.
+
 document.addEventListener('DOMContentLoaded', function() {
     var sliderWrapper = document.querySelector('.slider-wrapper');
     var prevButton = document.querySelector('.prev-button');

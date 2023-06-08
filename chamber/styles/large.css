@@ -78,7 +78,7 @@
         max-width: 1300px;
         width: 98%;
         padding: 1%;
-        background-color: #a7ab18;
+        background-color: #ff3131;
     }
     .logo {
         width: 200px;
@@ -217,4 +217,30 @@
         grid-column: 1/4;
         grid-row: 2/3;
     }
+    /* Page 2, discover page*/
+
+    #demo-know {
+        font-family: "Raleway";
+        font-size: 1.8em;
+    }
+    .pict-msg {
+        padding: 2%;
+        font-family: "Roboto";
+        font-size: 1.5em;
+    }
+    #population, #age, #income, #poverty {
+        font-family: "Montserrat";
+        font-size: 1.5em;
+    }
+    .images picture img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s; 
+      }
+      
+      .images picture img:hover {
+        transform: scale(1.1); 
+      }
+      
+    
 }
