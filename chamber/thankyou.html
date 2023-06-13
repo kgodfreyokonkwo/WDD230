@@ -61,27 +61,11 @@
         </div>
 
     <main>
-        <form method="get" action="thankyou.html" id="appform">
-            <fieldset>
-                <legend>Application Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Business Position Title<input type="text" name="title"></label>
-                <label class="top">Email*<input type="email" name="email" placeholder="someone@outlook.com" required></label>
-                <label class="top">Telephone Number*<input type="tel" placeholder="(801) 555-1234" required></label>
-                <label class="top">Business Name<input title="text" name="business"></label>
-        
-                <div>Select Membership Level</div>
-                <label class="levels"><input type="radio" name="membership" value="np"> NP Membership (For non-profit organization with no fee)</label>
-                <label class="levels"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                <label class="levels"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                <label class="levels"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-                <label class="top">Business Description<textarea name="description" placeholder="Please, make a description of your Business."></textarea></label>
-                <label class="topHide">Current Date and Time<input type="date" name="completeDate"></label>
-            </fieldset>
-            <input type="submit" value="Join the Chamber" class="submitBtn">
-
-        </form>
+        <div id="joinMsg">
+            <p id="thankYou"><strong>Thank you for indicating interest to join us!</strong><br>When your application has been processed, you shall 
+            receive a message (email) detailing you on the next step to take. Always keep in touch.
+            </p>
+        </div>
     </main>
     <hr class="hr1">
 

@@ -148,4 +148,7 @@
     form input.submitBtn {
         font-size: 1.4rem;
     }
+    #thankYou {
+        font-size: 1.3rem;
+    }
 }
