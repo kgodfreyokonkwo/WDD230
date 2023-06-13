@@ -236,11 +236,20 @@
         width: 200px;
         height: auto;
         transition: transform 0.3s; 
-      }
+    }
       
-      .images picture img:hover {
+    .images picture img:hover {
         transform: scale(1.1); 
-      }
+    }
       
-    
+    /*------- FORM Join.html------------*/
+    form label.levels {
+        padding: .4rem 0;
+    }  
+    form legend {
+        margin: 0 1rem;
+        padding: 0 .5rem;
+        font-size: 1.7rem;
+        font-family: "Roboto";
+    } 
 }
