@@ -596,14 +596,14 @@ main {
 }
 .memberCards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 4px;
 }
 .memberCards img:hover {
     transform: scale(0.9);
 }
 .member {
-    border: 3px solid #999;;
+    border: 3px solid #999;
     display: flex;
     flex-direction: column;
     margin: 0.25rem;
@@ -641,8 +641,3 @@ div.memberCards.list  div.member > * {
     margin: 0 1rem;
 }
   
-div.memberCards.list  div.member:nth-child(even) {
-    background-color: #cd979363;
-    color: black;
-    border: none;
-} 
