@@ -255,4 +255,14 @@
     #thankYou {
         font-size: 1.6rem;
     }
+
+    /*-------------Directory----------*/
+    .memberCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4px;
+    }
+    div.member h2 {
+        font-size: 20px;
+    }
 }

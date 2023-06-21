@@ -151,4 +151,18 @@
     #thankYou {
         font-size: 1.3rem;
     }
+    /*-----------Directory -------------*/
+
+    .memberCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4px;
+    }
+    div.member h2 {
+        font-size: 24px;
+    }
 }
+
+
+
+
