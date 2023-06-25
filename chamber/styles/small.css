@@ -148,6 +148,7 @@ hr {
     border-radius: 10px;
     padding-bottom: 10px;
     z-index: 1;
+    border: 5px solid yellow;
 }
 #weather-img {
     width: 40px;
@@ -157,11 +158,13 @@ hr {
     font-family: "Roboto";
     font-size: 1em;
     margin: 0;
+    color: yellow;
 }
 #weather-result1 {
     font-family: "Montserrat";
     font-size: 1em;
     margin: 0;
+    color: white;
 }
 #weather-result2 {
     font-family: "Montserrat";
