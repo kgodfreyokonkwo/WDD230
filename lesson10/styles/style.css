@@ -1,0 +1,36 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+    font-family: "Roboto";
+} 
+h2 {
+    color: firebrick;
+} 
+header, footer {
+    font-family: "Roboto";
+    padding: 1rem;
+    width: 70%;
+    height: 90px;
+    margin: 0 auto;
+    background-color: rgba(102, 102, 131, 0.199);
+    border: 2px solid black;
+}
+header {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+main {
+    font-family: "Roboto";
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+    font-size: 1.2rem;
+}
