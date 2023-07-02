@@ -265,4 +265,14 @@
     div.member h2 {
         font-size: 20px;
     }
+    /*------------- Contact us-----------*/
+    main.backImage form fieldset {
+        margin-right: 20%;
+    }
+    main.backImage #hero-msg {
+        top: 50%;
+        width: 50%;
+        left: 2%;
+        font-size: 1rem;
+    }
 }

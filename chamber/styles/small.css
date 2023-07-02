@@ -67,13 +67,6 @@ header {
 }
 #banner {
     display: none;
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    font-size: 12px;
-    font-family: "Montserrat";
-    top: 0;
-    height: 60px;
 }
 #hero {
     display: grid;
@@ -302,6 +295,12 @@ hr {
     width: 200px;
     height: 150px;
     margin-left: 5px;
+    border: 2px solid white;
+}
+footer div section h4 a{
+    color: white;
+    font-family: "Roboto";
+    text-decoration: none;
 }
 #address {
     grid-column: 1/4;
@@ -504,7 +503,7 @@ picture img{
 
 form fieldset {
     margin: 2rem 0;
-    border: 2px solid #ff8d8d;;
+    border: 2px solid #ff8d8d;
     border-radius: 10px;
     padding: .5rem 2%;
     font-family: "Roboto";
@@ -643,4 +642,46 @@ div.memberCards.list  div.member img {
 div.memberCards.list  div.member > * {
     margin: 0 1rem;
 }
+/*--------------- Contact Us-----------------*/
+main.backImage {
+    background-image: url('/chamber/images/backimg2.webp');
+    background-size: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 98%;
+}
+main.backImage form fieldset legend {
+    font-family: "Raleway";
+    font-weight: 800;
+}
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin-right: 5%;
+}
   
+main.backImage form fieldset {
+    border: none;
+}
+main.backImage form {
+    margin-top: 20px;
+}
+main.backImage form label.top input, main.backImage form label.top textarea {
+    background-color: white;
+}
+main.backImage form input.submitBtn {
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+main.backImage form label.top, main.backImage form div {
+    color: black;
+}
+main.backImage form .submitBtn:hover {
+    background-color: red;
+    color: black;
+}
+main.backImage #hero-msg {
+    display: none;
+}

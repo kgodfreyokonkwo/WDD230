@@ -60,28 +60,37 @@
             <p>Days since your last visit: <span class="daysSinceLastVisit"></span></p>
         </div>
 
-    <main>
+    <main class="backImage">
         <form method="get" action="thankyou.html" id="appform">
             <fieldset>
-                <legend>Application Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Business Position Title<input type="text" name="title"></label>
-                <label class="top">Email*<input type="email" name="email" placeholder="someone@outlook.com" required></label>
-                <label class="top">Telephone Number*<input type="tel" placeholder="(801) 555-1234" required></label>
-                <label class="top">Business Name<input title="text" name="business"></label>
+                <legend>Get in touch with us</legend>
+                <label class="top"><strong>First Name*</strong><input type="text" name="fname" required></label>
+                <label class="top"><strong>Last Name*</strong><input type="text" name="lname" required></label>
+                <label class="top"><strong>Company Name</strong><input type="text" name="title"></label>
+                <label class="top"><strong>Email*</strong><input type="email" name="email" placeholder="someone@outlook.com" required></label>
+                <label class="top"><strong>Telephone Number*</strong><input type="tel" placeholder="(801) 555-1234" required></label>
         
-                <div>Select Membership Level</div>
-                <label class="levels"><input type="radio" name="membership" value="np"> NP Membership (For non-profit organization with no fee)</label>
-                <label class="levels"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                <label class="levels"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                <label class="levels"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-                <label class="top">Business Description<textarea name="description" placeholder="Please, make a description of your Business."></textarea></label>
+                <div><strong>Are you a chamber member?</strong></div>
+                <label class="levels"><input type="radio" name="membership" value="np"><strong> Yes</strong></label>
+                <label class="levels"><input type="radio" name="membership" value="bronze"><strong> No</strong></label>
+                <label class="levels"><input type="radio" name="membership" value="silver"><strong> Not Sure</strong></label>
+            
+                <label class="top"><strong>What question do you have for Utah Innovation Chamber</strong><textarea name="description" placeholder="Please, be specific & precise."></textarea></label>
                 <label class="topHide">Current Date and Time<input type="date" name="completeDate"></label>
             </fieldset>
-            <input type="submit" value="Join the Chamber" class="submitBtn">
-
+            <input type="submit" value="Sumbit" class="submitBtn">
         </form>
+        <section id="hero-msg">
+            <hr class="hr2">
+            <h2 id="heroMessage"><strong> Membership</strong><br> <br>For questions about joining the Chamber or accessing 
+                existing member benefits, including the community calendar and member news portal, contact:</h2>
+            <h3 id="address"><strong>UI Chamber of Commerce</strong><br> Block 3, South 2nd Street<br> East Rexburg, ID, USA</h3>
+            <section id="contact"> 
+                <h4>info@utahinnovatecc.org<br><span style="color: white;">&#9990;</span> +(234) 806425-7817<br>
+                    <a href="https://goo.gl/maps/SGsGszdf76oJLCSp8">Location Map</a>
+                    <img src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png" alt="Map Marker"></h4>
+            </section>
+        </section>
     </main>
     <hr class="hr1">
 
@@ -91,7 +100,7 @@
                 <img class="logo" src="images/UICC_logo2.webp" alt="UICC logo">
             </div>
             <h3 id="address"><strong>UI Chamber of Commerce</strong><br> Block 3, South 2nd Street<br> East Rexburg, ID, USA
-                <br><a class="sign" href="contactus.html"><span class="email-icon">&#x1F4E7;</span>Contact us</a></h3>
+            <br><a class="sign" href="contactus.html"><span class="email-icon">&#x1F4E7;</span>Contact us</a></h3>
             <section id="contact">
                 <h4>info@utahinnovatecc.org<br><span style="color: white;">&#9990;</span>+(234) 806425-7817<br>
                     <a href="https://goo.gl/maps/SGsGszdf76oJLCSp8">Location Map</a>
