@@ -12,9 +12,17 @@
         padding-left: 10%;
         
     }
+    #hero {
+        margin-bottom: 50px;
+    }
+    #hero-box {
+        grid-column: 1/4;
+        grid-row: 1/4;
+    }
 
     #hero-msg {
         display: block;
+        bottom: -290px;
     }
     .email-icon {
         font-size: 20px;
@@ -32,7 +40,7 @@
         color: white;
     }
     .home-grid {
-        margin: 4% 2%;
+        margin: 3% 2%;
     }
     #blog {
         grid-column: 1;
@@ -100,6 +108,7 @@
     nav ul#primaryNav {
         margin-left: 2vw;
         display: flex;
+        font-size: 1rem;
 
     }
     nav ul li a {
@@ -109,7 +118,7 @@
         flex: 1 1 100%;
     }
     #weather {
-        top: 310px;
+        display: none;
     }
     #hamburgerBtn span:nth-child(1) {
         display: none;
@@ -167,14 +176,14 @@
     main.backImage form fieldset {
         margin-right: 8%;
     }
-    main.backImage #hero-msg {
+    main.backImage #contact-msg {
         position: absolute;
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
         height: auto;
-        top: 35%;
+        top: 10%;
         width: 35%;
         height: auto;
         left: 1%;
@@ -186,6 +195,30 @@
         border: 5px solid white;
         font-family: "Montserrat";
         font-size: 1.2rem;
+    }
+    /*-------------spotlight------------*/
+    #spotlight1,
+    #spotlight2,
+    #spotlight3
+    {
+        background-color: #eeeeee;
+        border: 2px solid #bbbbbb;
+        padding: 10px;
+        margin: 0 2% 12% 2%;
+        max-height: 180px;
+        height: 96%;
+        width: 90%;
+    }
+    #spotlight1 {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    #spotlight2 {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    div.spotlight img {
+        display: none;
     }
 }
 

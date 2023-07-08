@@ -117,3 +117,10 @@ function displayDaysSinceLastVisit() {
 displayDaysSinceLastVisit();
 
 localStorage.setItem('lastVisit', Date.now());
+
+
+// for the spotlight information
+fetch('members.json')
+  .then(response => response.json())
+  .then(data => displayChamberMembers(data.members))
+  .catch(error => console.log(error));

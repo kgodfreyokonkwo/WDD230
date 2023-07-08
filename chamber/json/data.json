@@ -6,7 +6,9 @@
         "phone": "+1 (555) 123-4567",
         "webSite": "qualtrics.com",
         "url": "https://www.qualtrics.com/",
-        "img": "images/1qualtrics.webp"
+        "membership": "Gold",
+        "img": "images/1qualtrics.webp",
+        "slogan": "Transforming data insight"
       },
       {
         "name": "Overstock",
@@ -14,7 +16,9 @@
         "phone": "+1 (555) 987-6543",
         "webSite": "overstock.com",
         "url": "https://www.overstock.com/",
-        "img": "images/02overstock.PNG"
+        "membership": "Gold",
+        "img": "images/02overstock.PNG",
+        "slogan": "Discover more, pay less"
       },
       {
         "name": "Vivint International",
@@ -22,7 +26,9 @@
         "phone": "+1 (555) 246-8109",
         "webSite": "vivint.com",
         "url": "https://www.vivint.com/",
-        "img": "images/03vivint.PNG"
+        "membership": "Bronze",
+        "img": "images/03vivint.PNG",
+        "slogan": "Smarter & secure living"
       },
       {
         "name": "Utah Restaurant Association",
@@ -30,7 +36,9 @@
         "phone": "+1 (555) 876-5432",
         "webSite": "utahrestaurantassociation.org",
         "url": "http://www.utahrestaurantassociation.org/",
-        "img": "images/04restAssociation.PNG"
+        "membership": "Silver",
+        "img": "images/04restAssociation.PNG",
+        "slogan": "Enjoy Utah dining experience"
       },
       {
         "name": "Utah Non-profit Association",
@@ -38,7 +46,9 @@
         "phone": "+1 (555) 321-9876",
         "webSite": "utahnonprofits.org",
         "url": "https://utahnonprofits.org/",
-        "img": "images/05utahNonprofit.PNG"
+        "membership": "Gold",
+        "img": "images/05utahNonprofit.PNG",
+        "slogan": "The power of giving"
       },
       {
         "name": "Brigham Young University",
@@ -46,7 +56,9 @@
         "phone": "+1 (555) 432-1098",
         "webSite": "byu.edu",
         "url": "https://www.byu.edu/",
-        "img": "images/06byu.PNG"
+        "membership": "Silver",
+        "img": "images/06byu.PNG",
+        "slogan": "Elevating Educational excellence"
       },
       {
         "name": "University of Utah",
@@ -54,7 +66,9 @@
         "phone": "+1 (555) 908-7654",
         "webSite": "utah.edu",
         "url": "https://www.utah.edu/",
-        "img": "images/07UtahUniversity.PNG"
+        "membership": "Gold",
+        "img": "images/07UtahUniversity.PNG",
+        "slogan": "Where knowledge transforms lives"
       },
       {
         "name": "Utah Technology Council",
@@ -62,7 +76,9 @@
         "phone": "+1 (555) 234-5678",
         "webSite": "utahtech.org",
         "url": "https://utahtech.org/",
-        "img": "images/08UtahTechCouncil.PNG"
+        "membership": "Bronze",
+        "img": "images/08UtahTechCouncil.PNG",
+        "slogan": "Shaping future technology"
       },
       {
         "name": "Utah Valley Chamber of Commerce",
@@ -70,7 +86,9 @@
         "phone": "+1 (555) 234-5362",
         "webSite": "thechamber.org",
         "url": "https://thechamber.org/",
-        "img": "images/09utahValley.PNG"
+        "membership": "Silver",
+        "img": "images/09utahValley.PNG",
+        "slogan": "Empowering businesses communities"
       }
     ]
   }
