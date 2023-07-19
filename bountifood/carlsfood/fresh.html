@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlsband Bountiful Foods</title>
+    <meta name="description" content="Description of the page less than 150 characters">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;family=Montserrat&amp;family=Raleway&amp;family=Roboto&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header>
+            <div id="invitation">
+                <h1 id="connect">Connect with us on twitter, facebook, instagram and Linked-in! &#9758;</h1>
+            </div>
+            <div id="socials">
+                <a href="https://facebook.com" target="_blank">
+                    <img class="social" src="images/facebook.webp" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img class="social" src="images/twitterPNG.webp" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img class="social" src="images/instagramPNG.webp" alt="instagram icon">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img class="social" src="images/linkedinJPG.webp" alt="linked-in icon">
+                </a>
+            </div>
+            <div id="logo-position">
+                <a id="logo" href="index.html">
+                    <img class="logo" src="images/logo.webp" alt="UICC logo">
+                </a>
+            </div>
+            <div id="navigator">
+                <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="fresh.html">Fresh</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="banner">
+                <a><strong>Contact Us</strong></a>
+            </div>
+        </header>
+        <hr class="hr1">
+    <main class="specialty">
+      <h1>Build Your Own Specialty Drink</h1>
+      <form id="drinkForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+        
+        <label for="fruit1">Select Fruit 1:</label>
+        <select id="fruit1" ></select>
+        
+        <label for="fruit2">Select Fruit 2:</label>
+        <select id="fruit2"></select>
+        
+        <label for="fruit3">Select Fruit 3:</label>
+        <select id="fruit3"></select>
+        
+        <label for="specialInstructions">Special Instructions:</label>
+        <textarea id="specialInstructions"></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+      <div id="output"></div>
+    </main> 
+    <footer>
+        <div id="footnote">
+            <div id="logo_link">
+                <img class="logo" src="images/logo.webp" alt="Carlsban foods logo">
+            </div>
+            <div class="hero-contact">
+                <p>No. 1 Bear Valley Rd, Point Reyes Station, CA 94956<br>(415) 464-5100<br>pointrayes@carlsbandbountifood.com</p>
+            </div>
+            <div class="footer-links">
+                <a href="resource.html">Resources</a> <!-- Link to the resource/attribution page -->
+            </div>
+            <section id="base-footer">
+                <hr>
+                <h5>&copy; Carlsband Bountifood | Kingsley Godfrey | WDD230 Project</h5>
+                <h6>Last updated: 17th July 2023 20:20:20</h6>
+            </section>
+        </div>
+    </footer>
+    <script src="scripts/specialtydrink.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/drinkCount.js"></script>
+    <script src="scripts/windchill.js"></script>
+    </div>
+</body>
+</html>

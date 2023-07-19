@@ -1,0 +1,548 @@
+#content {
+    max-width: 1280px;
+    margin: 0;
+}
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: 1280px;
+  }
+header {
+    max-width: 1280px;
+    width: 98%;
+    display: grid;
+    margin: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+header div#invitation {
+    display: none;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: .5rem;
+    padding-left: 30%;
+    margin-right: 5px;
+    color: white;
+    background-color: #31533a;
+    max-height: 50px;
+    height: 100%;
+}
+header div#socials {
+    display: flex;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    width: 97%;
+    max-height: 50px;
+    justify-content: flex-end;
+    background-color: white;
+    padding-right: 5%;
+}
+header div#socials img.social {
+    max-width: 25px;
+    max-height: 25px;
+    width: 98%;
+    border-radius: 10px;
+    border: 3px solid white;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 1%;
+    margin-top: 15%;
+}
+header div#logo-position {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    margin: 1%;
+    max-height: 80px;
+    height: 98%;
+}
+header div#logo-position img.logo {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 150px;
+    max-height: 100px;
+}
+#navigator {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    display: flex;
+    width: 100%;
+}
+nav {
+    background-color: #a4e96b;
+    margin-top: 10px;
+    padding: 0;
+    flex: 1 1 100%;
+}
+#navigator button {
+    margin: .4rem 3vw;
+    background: transparent;
+    border: none;
+    font-size: 1.8rem;
+    color: #31533a;
+}
+
+nav ul {
+    display: none;
+    margin: 0;
+    justify-content: flex-end;
+    padding: 5%;
+    list-style-type: none;
+}
+nav ul li {
+    flex: 1 1 100%;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    border: 1px solid #26303a;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 800;
+    font-family: "Montserrat";
+    flex: 1 1 100%;
+}
+nav ul li.active a {
+    background-color: #31533a;
+    border: 1px solid #31533a;
+    color: white;
+}
+nav ul li a:hover {
+    color: red;
+}
+
+
+nav ul.open {
+    display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+header div#banner {
+    display: none;
+    grid-column: 5/6;
+    grid-row: 2/3;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    margin: 5px 1vw;
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    border-radius: 20px;
+    background-color: #a4e96b;
+    padding-top: 5%;
+}
+header div#banner:hover {
+    background-color: #31533a;
+    color: yellow;
+}
+body div.hero {
+    display: block;
+    background-image: url("/bountifood/carlsfood/images/hero600.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+div.hero picture#hero-box {
+   display: none;
+}
+div.hero #hero {
+    color: white;
+    font-weight: 800;
+    font-size: .7rem;
+    width: 80%;
+    margin: 0 5px 0 2%;
+    display: flex;
+}
+div.hero #hero .hero-content h1 {
+    font-family: "Montserrat";
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+div.hero #hero .hero-content p {
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 1%;
+    margin-right: -65px;
+}
+div.hero #hero .hero-content 
+.hero-contact p {
+    font-family: "Raleway";
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 600;
+    margin: 0 -65px 0 1%;
+    margin-bottom: 0;
+    padding: 0;
+    color: white;
+}
+div.hero #hero .hero-content 
+ a {
+    width: 80%;
+    height: 7%;
+    text-align: center;
+    color: yellow;
+    text-decoration: none;
+    margin: .3rem 0;
+    font-size: 1.4rem;
+    display: block;
+    border-radius: 20px;
+    background-color: #31533a;
+    padding: 1.5%;
+    
+}
+div.hero #hero .hero-content 
+ a:hover {
+    background-color: #a4e96b;
+    color: black;
+    border: 2px solid #31533a;
+ }
+div.hero #hero .hero-content .cta-button {
+    margin-top: 20px;
+}
+div.hero picture#hero-box img {
+    width: 65%;
+    height: 65%;
+    border-radius: 190px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 10%;
+}
+main.home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    max-width: 1280px;
+    max-height: 1500px;
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    gap: 1%;
+    background-color: #eeeee4;
+}
+main.home-grid div#coastal-area {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    max-width: 800px;
+    max-height: 400px;
+    height: 96%;
+    width: 100%;
+    margin: 1%;
+    background-color: #eeeee4;
+    padding: 2%;
+    border: 1px solid #31533a;
+}
+main.home-grid div#coastal-area img {
+    float: left;
+    width: 50%;
+    margin: 0 10px 10px 0;
+    border: 2px solid #31533a;
+    border-radius: 20px;
+}
+main.home-grid div#coastal-area h2 {
+    font-family: "Roboto";
+    font-size: 1.8rem;
+}
+main.home-grid div#coastal-area p {
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    color: #31533a;
+    text-align: justify;
+}
+main.home-grid div#coastal-area #paragraph2 {
+    display: none;
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    color: #31533a;
+    text-align: justify;
+}
+main.home-grid #weather-card {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    max-width: 400px;
+    max-height: 400px;
+    height: 98%;
+    width: 98%;
+    margin: 0 1% 0 0;  
+    background-color: #31533a;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+main.home-grid #weather-card h2, h3 {
+    font-family: "Montserrat";
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: .9rem;
+}
+main.home-grid #weather-card p {
+    font-family: "Montserrat";
+    text-align: left;
+    margin-left: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: .9rem;
+}
+main.home-grid #call-to-action {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    max-width: 550px;
+    max-height: 800px;
+    height: 98%;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main.home-grid #call-to-action div img {
+    border-radius: 250px;
+    width: 70%;
+    max-height: 50%;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+main.home-grid #call-to-action div {
+    position: relative;
+    display: inline-block;
+}
+main.home-grid #call-to-action div h2 {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    color: white;
+    background-color: #31533a;
+    width: 400px;
+    padding: 4%;
+    border-radius: 15px;
+    font-family: "montserrat";
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main.home-grid #call-to-action div h2 a {
+    color: white;
+    text-decoration: none;
+}
+main.home-grid #call-to-action div h2:hover {
+    color: black;
+    background-color: #a4e96b;
+    border: 1px solid #31533a;
+}
+main.home-grid #call-to-action div p {
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    color: black;
+    background-color: #eeeee4;
+    width: 400px;
+    padding: 3%;
+    font-family: "montserrat";
+    font-size: 1rem;
+    border: 1px solid #31533a;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer div#footnote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 1280px;
+    max-height: 400px;
+    width: 98%;
+    margin: 1%;
+    background-color: #31533a;
+    color: white;
+}
+footer div#footnote #logo_link {
+    margin: 1%;
+    width: 98%;
+}
+footer div#footnote div.hero-contact {
+    margin: 1%;
+    width: 98%;
+    font-family: "Raleway";
+    font-size: .7rem;
+    padding: 2%;
+}
+footer div#footnote div.footer-links a {
+    color: yellow;
+}
+footer div#footnote #base-footer {
+    margin: 1%;
+    width: 98%;
+    font-family: "Raleway";
+    font-size: .8rem;
+    border: 1px solid #31533a;
+    text-align: center;
+    background-color: #eeeee4;
+    color: #31533a;
+}
+hr {
+    max-width: 1280px;
+    width: 98%;
+    margin: 1%;
+}
+/*----------  Fresh page ---------------*/
+body {
+    font-family: "Roboto", "Montserrat";
+    margin: 20px;
+}
+  
+main.specialty h1 {
+    text-align: center;
+}
+  
+main.specialty form#drinkForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+main.specialty form#drinkForm label {
+    margin-top: 10px;
+}
+  
+main.specialty form#drinkForm input, select, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+  
+main.specialty form#drinkForm button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+main.specialty form#drinkForm button:hover {
+    background-color: #45a049;
+  }
+  
+main.specialty #output {
+    margin-top: 30px;
+    max-width: 350px;
+    padding: 10px;
+    border: 1px solid #31533a;
+    background-color: #eeeee4;
+}
+/*--------------- About us ------------------*/
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+    text-align: center;
+}
+
+main.images div.about-img {
+    max-width: 1200px;
+    max-height: 480px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1%;
+}
+main.images div.about-img picture#about-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+main.images div.about-img picture#about-img img {
+    width: 100%;
+    height: 50%
+}
+main.images div.about-img p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 96%;
+    height: 10%;
+    margin: 1%;
+    z-index: 1;
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    color: #eeeee8;
+    font-weight: 900;
+    background-color: #31533a;
+    padding: 1%;
+}
+#demo-know {
+    font-family: "Raleway";
+    font-size: 1.3em;
+}
+.pict-msg {
+    padding: 2%;
+    font-family: "Roboto";
+    font-size: 1.2em;
+    text-decoration: solid;
+    text-align: justify;
+    margin-left: 20px;
+}
+#indices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1%;
+    width: 98%;
+}
+#demo-know {
+    color: #a7ab18;
+    text-decoration: solid;
+}
+#sales, #satisfaction, #nutrition, #health {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0 auto;
+    font-family: "Montserrat";
+    font-size: .9em;
+    display: flex;
+}
+main.images figure.fig1, .fig2, .fig3 {
+    max-width: 1200px;
+    width: 80%;
+    margin-bottom: 1%;
+    background-color: #eeeee4;
+}
+main.images figure.fig1, .fig2, .fig3 {
+    border-radius: 15px;
+}
+
+main.images figure.fig1 img,
+main.images figure.fig3 img {
+    width: 30%;
+    float: left;
+    border: 2px solid #eeeee4;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+main.images figure.fig2 img {
+    width: 30%;
+    float: right;
+    border: 2px solid #eeeee4;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+/*----------Resources-----------*/

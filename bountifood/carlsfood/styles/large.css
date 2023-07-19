@@ -1,0 +1,141 @@
+@media only screen and (min-width: 900px) {
+    nav {
+        background-color: white;
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1%;
+        margin-left: 1vw;
+        margin-top: 10px;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+        display: flex;
+    }
+    nav ul li a{   
+        border: none; 
+        color: black;
+        height: 60%;
+        margin: .1rem 1vw;
+        font-size: .9rem;
+        padding-top: 5%;
+        white-space: nowrap;
+        width: auto;
+    }
+    body div.hero {
+        display: none;
+    }
+        header div#logo-position img.logo {
+        max-width: 250px;
+        max-height: 100px;
+    }
+    body div.hero {
+        background-image: none;
+        background-size: auto;
+        opacity: unset;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 1280px;
+        max-height: 550px;
+        height: 98%;
+        width: 98%;
+        margin: 0 1%;
+        background-color: #eeeee4;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    div.hero picture#hero-box {
+        display: block;
+        grid-column: 2/3;
+        grid-row: 1/4;
+        width: 98%;
+        text-align: right
+    }
+    div.hero #hero {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        width: 97%;
+        margin: 0 2% 0 2%;
+        display: flex;
+        color: black;
+    }
+    div.hero #hero .hero-content h1 {
+        font-family: "Montserrat";
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+    div.hero #hero .hero-content p {
+        font-family: "Montserrat";
+        font-size: 1.3rem;
+        text-align: justify;
+        font-weight: 400;
+        margin-left: 1%;
+        margin-right: -65px;
+    }
+    div.hero #hero .hero-content 
+    .hero-contact p {
+        font-family: "Raleway";
+        font-size: 1rem;
+        text-align: justify;
+        font-weight: 600;
+        margin: 0 -65px 0 1%;
+        margin-bottom: 0;
+        padding: 0;
+        color: #31533a;
+    }
+    main.home-grid #call-to-action {
+        border-radius: 250px;
+        width: 100%;
+        max-height: 60%;
+        margin: 20% 0;
+    }
+    main.home-grid #call-to-action div h2 {
+        text-align: center;
+        width: 400px;
+        padding: 4%;
+        border-radius: 15px;
+        font-size: 1rem;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+    main.home-grid #call-to-action div p {
+        width: 400px;
+        padding: 3%;
+        border-radius: 15px;
+        font-size: 1rem;
+        margin: 0 20%;
+        margin-left: 10%;
+    }
+    footer div#footnote div.footer-links {
+        display: block;
+    }
+    footer div#footnote div.footer-links a {
+        margin-right: 40px;
+    }
+    /*-------------- About us ------------------*/
+    #demo-know {
+        font-family: "Raleway";
+        font-size: 1.8em;
+    }
+    .pict-msg {
+        padding: 2%;
+        font-family: "Roboto";
+        font-size: 1.5em;
+    }
+    #sales, #satisfaction, #nutrition, #health {
+        font-family: "Montserrat";
+        font-size: 1.5em;
+    }
+    .images picture img {
+        width: 200px;
+        height: auto;
+        transition: transform 0.3s; 
+    }
+      
+    /* .images picture img:hover {
+        transform: scale(1.1); 
+    }     */
+    
+}

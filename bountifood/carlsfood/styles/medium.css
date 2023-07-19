@@ -1,0 +1,218 @@
+@media only screen and (min-width: 600px) {
+    #content {
+        max-width: 1280px;
+        margin: 2%;
+    }    
+    header {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    header div#invitation {
+        display: block;
+    }
+    nav button {
+        display: none;
+    }
+    header div#socials {
+        grid-column: 4/6;
+        background-color: #31533a;
+    }
+    header div#logo-position {
+        grid-row: 2/3;
+        margin: 0 20% 0 -5px;
+    }
+    header div#logo-position img.logo {
+        height: 100%;
+        margin: 0 auto;
+        max-width: 200px;
+        max-height: 90px;
+    }
+    #navigator {
+        grid-column: 2/5;
+        width: 90%;
+        max-height: 60px;
+        height: 96%;
+        padding: 0;
+        flex: 1 1 100%;
+    }
+    #navigator button {
+        display: none;
+    }
+    nav ul {
+        padding: 2%;
+    }
+    nav {
+        background-color: white;
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: .4rem 1.5vw;
+        padding: 5px 25px;
+    }
+    nav ul li.active a {
+        background-color: #a4e96b;
+        color: black;
+    }
+    
+
+    /* header div#banner {
+        display: block;
+    } */
+
+    header div#invitation {
+        padding-left: 15%;
+    }
+    
+    body div.hero {
+        display: block;
+        background-image: url("/bountifood/carlsfood/images/hero600.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+    }
+    div.hero picture#hero-box {
+       display: none;
+    }
+    div.hero #hero {
+        color: white;
+        font-weight: 800;
+        width: 86%;
+    }
+    div.hero #hero .hero-content .hero-contact p {
+        color: white;
+    }
+    main.home-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    main.home-grid div#coastal-area {
+        margin: 0 3% 0 1%;
+        padding: 1%;
+        border: 0;
+        width: 94%;
+    }
+    main.home-grid div#coastal-area img {
+        margin: 0 5px 15px 0;
+        border-radius: 10px;
+    }
+    main.home-grid div#coastal-area h2 {
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+    main.home-grid div#coastal-area p {
+        font-size: 1.2rem;
+    }
+    main.home-grid div#coastal-area #paragraph2 {
+        display: inline;
+    }
+    main.home-grid #weather-card {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    main.home-grid #weather-card h2, h3 {
+        font-size: 1rem;
+    }
+    main.home-grid #call-to-action div img {
+        border-radius: 250px;
+        width: 100%;
+        max-height: 60%;
+    }
+    main.home-grid #call-to-action {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    main.home-grid #call-to-action div h2 {
+        width: 300px;
+        padding: 2%;
+        border-radius: 10px;
+        font-size: .8rem;
+        margin: 0 5%;
+        align-content: center;
+    }
+    main.home-grid #call-to-action div p {
+        width: 300px;
+        padding: 2%;
+        border-radius: 10px;
+        font-size: .8rem;
+        margin: 0 5%;
+        align-content: center;
+    }
+    footer div#footnote {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    footer div#footnote div.hero-contact {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 1%;
+        width: 98%;
+        font-family: "Raleway";
+        font-size: .8rem;
+        padding: 2%;
+    }
+    footer div#footnote #logo_link {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    footer div#footnote div.footer-links {
+        display: none;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        width: 94%;
+        font-family: "Raleway";
+        font-size: 1.3rem;
+        padding: 3%;
+    }
+    footer div#footnote div.hero-contact {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        font-size: 1.1rem;
+    }
+    footer div#footnote #base-footer {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        font-size: 1.2rem;
+    }
+    nav {
+        margin-top: 10px;
+        padding: 0;
+    }
+    nav ul#primaryNav {
+        margin-left: 2vw;
+        display: flex;
+        font-size: 1rem;
+
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: .3rem 4vw;
+        flex: 1 1 100%;
+        white-space: nowrap;
+    }
+    #hamburgerBtn span:nth-child(1) {
+        display: none;
+    }
+    #hamburgerBtn span:nth-child(2) {
+        display: none;
+    }
+    /*--------- About us -----------*/
+
+    #demo-know {
+        font-family: "Raleway";
+        font-size: 1.3em;
+    }
+    .pict-msg {
+        padding: 2%;
+        font-family: "Roboto";
+        font-size: 1.3em;
+    }
+    #sales, #satisfaction, #nutrition, #health {
+        font-family: "Montserrat";
+        font-size: 1.3em;
+    }
+}
+
+
+
+

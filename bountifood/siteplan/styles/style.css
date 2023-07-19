@@ -26,7 +26,7 @@ body {
     text-align: center;
 }
 body.content {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 98%;
 }
 img {
@@ -36,11 +36,16 @@ img {
     border: 2px solid black;
 }
 header nav ul {
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     list-style-type: none;
     font-size: 16px;
+}
+header nav {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
 }
 nav ul li.active a {
     background-color: #a7ab18;
@@ -82,7 +87,7 @@ p {
 }
 .colors {
     width: 96%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 10px auto;
     padding: 10px auto;
     text-align: center;
@@ -120,11 +125,9 @@ p.colored {
 nav {
     background-color: var(--nav-background-color);
     text-align: center;
-    box-shadow: 0 2px 15px #eeeee4;
 }
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;	
 }
